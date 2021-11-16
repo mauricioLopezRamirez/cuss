@@ -37,7 +37,9 @@
     "pt.js",
     "pt.d.ts",
     "pt-pt.js",
-    "pt-pt.d.ts"
+    "pt-pt.d.ts",
+    "co-public-entities.js",
+    "co-public-entities.d.ts"
   ],
   "exports": {
     ".": "./index.js",
@@ -52,7 +54,9 @@
     "./pt": "./pt.js",
     "./pt.js": "./pt.js",
     "./pt-pt": "./pt-pt.js",
-    "./pt-pt.js": "./pt-pt.js"
+    "./pt-pt.js": "./pt-pt.js",
+    "./co-public-entities": "./co-public-entities.js",
+    "./co-public-entities.js": "./co-public-entities.js"
   },
   "devDependencies": {
     "@types/tape": "^4.0.0",
